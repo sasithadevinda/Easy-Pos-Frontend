@@ -1,0 +1,28 @@
+.main-outer{
+background: var(--primary-color);
+  width: 100%;
+  height: 60px;
+  display: flex;
+ align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 5000;
+}
+.access-console-button{
+  background: var(--oranage-color);
+  border-radius: 50px;
+  padding: 8px 20px;
+  border: none;
+
+  color: var(--font-coclr);
+  margin: 0 13px;
+  font-weight: bolder;
+}
+
+a{
+  color: var(--font-coclr) !important;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+
+}
